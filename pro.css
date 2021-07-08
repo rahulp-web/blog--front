@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffc266;
+}
+
+.container {
+    width: 100%;
+    min-height: 164px;
+}
+
+.header h1 {
+    margin: 0px;
+    text-align: center;
+    line-height: 71px;
+    color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background-color: red;
+}
+
+.menu {
+    background-color: black;
+    height: 63px;
+    padding-top: 16px;
+    text-align: center;
+}
+
+.menu a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    display: block;
+}
+
+.menu a:hover {
+    color: red;
+    background-color: greenyellow;
+}
+
+.main {}
+
+h3 a {
+    float: right;
+}
+
+.sidebar {
+    float: right;
+}
+
+.main .sidebar a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+    margin-right: 140px;
+}
+
+.main .content {
+    float: left;
+    width: 75%;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.post {
+    text-align: center;
+    background-color: antiquewhite;
+    font-family: cursive;
+    width: 452px;
+}
+
+.content h2 {
+    margin-top: 12px;
+}
+
+.footer {
+    background-color: darkgrey;
+    height: 65px;
+    padding-top: 16px;
+    text-align: center;
+    font-size: 28px;
+    line-height: 24px;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+.blog_post {
+    border: 1px solid black;
+    width: 40%;
+    background-color: aliceblue;
+    float: left;
+    width: 49%;
+    box-sizing: border-box;
+    margin-right: 9px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.blog_post .blog-categrious {
+    font-size: 26px;
+    color: black;
+}
+
+h3 {
+    margin-top: 12px;
+}
+
+.post-date {
+    margin-top: -7px;
+    color: red;
+}
+
+.readmore {
+    color: blue;
+}
+
+a:hover {
+    text-decoration: darkmagenta;
+}
+
+.sidebar {
+    float: right;
+}
+
+.carousel-inner {
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .blog_post {
+        padding: 12px;
+    }
+}
+
+@media screen and (max-width: 1238px) {
+    .menu {
+        height: 286px;
+    }
+}
+
+@media screen and (min-width: 1218px) {
+    .menu a {
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 1375px) {
+    .blog_post {
+        margin-right: 2px;
+    }
+}
